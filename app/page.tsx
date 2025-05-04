@@ -1,9 +1,7 @@
-"use client"
+import { Button } from "./_components/ui/button"
 
-import { useState } from "react"
-
-export default function Home() {
-  const [] = useState()
-
-  return <h1 className="bg text-red-500">Home</h1>
+const Home = () => {
+  return <Button>Test</Button>
 }
+
+export default Home
